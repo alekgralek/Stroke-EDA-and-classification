@@ -4,7 +4,7 @@ In this project, medical data classification related to stroke was performed. Th
 
 The data was then divided into training and test sets, and several algorithms were implemented using a pipeline that included StandardScaler and SMOTETomek for each model. The focus was on the best model, which was the Random Forest Classifier. The pipeline with PCA was made to reduce data dimensionality. Hyperparameters were then tuned using Random Search. Confusion matrix and ROC curve were also created to evaluate the classifier.
 
-Therefore, the project successfully implemented various techniques to clean and preprocess the medical data, applied different algorithms using a pipeline, and fine-tuned the best model using PCA and RandomizedSearch to achieve optimal performance.
+Therefore, the project successfully implemented various techniques to clean and preprocess the medical data, applied different algorithms using a pipeline and fine-tuned the best model using PCA and RandomizedSearch to achieve optimal performance.
 
 
 #### Source of dataset:
