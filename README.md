@@ -2,7 +2,7 @@
 
 In this project, medical data classification related to stroke was performed. The project included the replacement of NaN values using the MICE algorithm and the removal of outliers using the Local Outlier Factor algorithm. Additionally, EDA (Exploratory Data Analysis) was carried out.
 
-The data was then divided into training and test sets, and several algorithms were implemented using a pipeline that included StandardScaler and SMOTETomek for each model. The focus was on the best model, which was the Random Forest Classifier. The pipeline with PCA was made to reduce data dimensionality. Hyperparameters were then tuned using Random Search. A confusion matrix and ROC curve were also created to evaluate the classifier.
+The data was then divided into training and test sets, and several algorithms were implemented using a pipeline that included StandardScaler and SMOTETomek for each model. The focus was on the best model, which was the Random Forest Classifier. The pipeline with PCA was made to reduce data dimensionality. Hyperparameters were then tuned using Random Search. Confusion matrix and ROC curve were also created to evaluate the classifier.
 
 Therefore, the project successfully implemented various techniques to clean and preprocess the medical data, applied different algorithms using a pipeline, and fine-tuned the best model using PCA and RandomizedSearch to achieve optimal performance.
 
